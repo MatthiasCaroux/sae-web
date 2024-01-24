@@ -70,3 +70,7 @@ h1{
 *{
     list-style: none;
 }
+
+#questions{
+    padding-top: 40px;
+}
