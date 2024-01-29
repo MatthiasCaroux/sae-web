@@ -3,6 +3,7 @@
 * {
     min-width: 0;
     font: inherit;
+    list-style: none;
 }
 
 *, *::before, *::after {
