@@ -2,7 +2,7 @@
 
 * {
     min-width: 0;
-    font-family: Inter;
+    font: inherit;
     list-style: none;
 }
 
