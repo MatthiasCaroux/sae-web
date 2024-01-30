@@ -44,4 +44,12 @@ p {
     text-wrap: pretty;
 }
 
+body{
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* Fin des styles de base */

@@ -9,7 +9,7 @@ main > h2 {
     padding-right: 20%;
 }
 
-header >a >img{
+header > a >img{
     position:absolute;
     width: 150px;
     height: 150px;
@@ -17,7 +17,7 @@ header >a >img{
     top: 40px;
     left: 45px;
 }
-main> nav> ul > li> img{
+main > nav > ul > a > li> img{
     border-radius: 20px 20px 0px 0px;
     background: url(<path-to-image>), white 50% / cover no-repeat;
     width: 390px;
@@ -34,7 +34,7 @@ main > nav > ul{
     margin-top: 50px;
     padding: 0;
 }
-body > main > nav > ul > li{
+body > main > nav > ul > a > li{
     min-height: 400px; /*la hauteur minimum est de 400px*/
     border-radius: 20px;
     background: #0B60B0;
@@ -50,6 +50,8 @@ body > main > nav > ul > li{
     text-decoration: none;
     color: white;
 }
+
+
 
 main{
     display: flex;
@@ -70,7 +72,7 @@ main > h1{
 main > div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 50px;
     margin-top: 50px;
 
