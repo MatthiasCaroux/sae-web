@@ -32,6 +32,7 @@ main > nav > ul{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
+    padding: 0;
 }
 body > main > nav > ul > li{
     min-height: 400px; /*la hauteur minimum est de 400px*/
@@ -45,7 +46,7 @@ body > main > nav > ul > li{
     text-decoration-thickness: 3px;
     border: black  2px solid;
 }
-main > nav > ul > li > a{
+.liens_image_central{    /*main > nav > ul > li > a*/
     text-decoration: none;
     color: white;
 }
@@ -64,6 +65,38 @@ main > h1{
 }
 #questions{
     font-size: 45px;
+}
+
+main > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.voir-tous-les-metiers {/*Bouton en bas de page*/
+    background-color: #0B60B0;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    border: #0B60B0 2px solid;
+    border-radius: 20px;
+
+}
+
+
+    main > div :hover{
+    background-color: white;
+    color: #0B60B0;
+    border: #0B60B0 2px solid;
+    transition: 0.2s ease-in-out;
+    
 }
 
 /* le reponsive (à modifier) */
