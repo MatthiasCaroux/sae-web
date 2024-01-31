@@ -4,12 +4,13 @@ body{
 h1{
     padding-bottom: 50px;
 }
+
 main > h2 {
     padding-left: 20%;
     padding-right: 20%;
 }
 
-header > a >img{
+header > a > img{
     position:absolute;
     width: 150px;
     height: 150px;
@@ -34,6 +35,7 @@ main > nav > ul{
     margin-top: 50px;
     padding: 0;
 }
+
 body > main > nav > ul > a > li{
     min-height: 400px; /*la hauteur minimum est de 400px*/
     border-radius: 20px;
@@ -46,6 +48,8 @@ body > main > nav > ul > a > li{
     text-decoration-thickness: 3px;
     border: black  2px solid;
 }
+
+
 .liens_image_central{    /*main > nav > ul > li > a*/
     text-decoration: none;
     color: white;
@@ -93,13 +97,14 @@ main > div {
 }
 
 
-    main > div :hover{
+.bloc_tous_les_metier :hover{
     background-color: white;
     color: #0B60B0;
     border: #0B60B0 2px solid;
     transition: 0.2s ease-in-out;
-    
 }
+
+
 
 /* le reponsive (à modifier) */
 @media (max-width: 1280px) {
