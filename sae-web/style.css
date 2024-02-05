@@ -1,0 +1,136 @@
+body{
+    background-color: #ffffff;
+
+}
+h1{
+    padding-bottom: 50px;
+}
+
+main > h2 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+header > a > img{
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    top: 40px;
+    left: 45px;
+}
+main > nav > ul > a > li> img{
+    border-radius: 20px 20px 0px 0px;
+    background: url(<path-to-image>), white 50% / cover no-repeat;
+    width: 390px;
+    height: 243px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+    border: black  1px solid;
+}
+main > nav > ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+body > main > nav > ul > a > li{
+    min-height: 400px; /*la hauteur minimum est de 400px*/
+    border-radius: 20px;
+    background: #0B60B0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 32px;/*Taille de la police*/
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 0.5em;
+    text-decoration-thickness: 3px;
+    border: black  2px solid;
+}
+
+
+.liens_image_central{    /*main > nav > ul > li > a*/
+    text-decoration: none;
+    color: white;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+main > h1{
+    padding-left: 500px;
+    padding-right: 500px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+#questions{
+    font-size: 45px;
+}
+
+main > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.voir-tous-les-metiers {/*Bouton en bas de page*/
+    background-color: #0B60B0;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    border: #0B60B0 2px solid;
+    border-radius: 20px;
+
+}
+
+
+.bloc_tous_les_metier :hover{
+    background-color: white;
+    color: #0B60B0;
+    border: #0B60B0 2px solid;
+    transition: 0.2s ease-in-out;
+}
+
+footer > img{
+    float: right;
+    width: 250px;
+} 
+
+footer{
+    background-color: whitesmoke;
+    padding: 100px;
+    padding-left: 50px;
+}
+footer > p{
+    border: thin black solid;
+    width: 250px;
+}
+
+
+/* le reponsive (à modifier) */
+@media (max-width: 1280px) {
+    main > nav > ul {
+        display: block;
+        align-items: center;
+    }
+
+    main > nav > ul > li {
+        align-items: center;
+    }
+}

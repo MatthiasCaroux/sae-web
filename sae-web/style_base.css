@@ -1,0 +1,55 @@
+/* Ajout des style de base a mettre sur le site */
+
+* {
+    min-width: 0;
+    font-family: Inter;
+    list-style: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, video, svg{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Fin des styles de base */
