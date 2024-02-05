@@ -1,5 +1,6 @@
 body{
     background-color: #ffffff;
+
 }
 h1{
     padding-bottom: 50px;
@@ -60,6 +61,8 @@ body > main > nav > ul > a > li{
 main{
     display: flex;
     flex-direction: column;
+    padding-right: 12%;
+    padding-left: 12%;
 }
 main > h1{
     padding-left: 500px;
@@ -104,6 +107,20 @@ main > div {
     transition: 0.2s ease-in-out;
 }
 
+footer > img{
+    float: right;
+    width: 250px;
+} 
+
+footer{
+    background-color: whitesmoke;
+    padding: 100px;
+    padding-left: 50px;
+}
+footer > p{
+    border: thin black solid;
+    width: 250px;
+}
 
 
 /* le reponsive (à modifier) */
