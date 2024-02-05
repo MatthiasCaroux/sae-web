@@ -1,27 +1,21 @@
-.bloc_metier > ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #0B60B0;
-    border-radius: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
+.bloc_metier{
+    flex-basis: 100%;
 }
 
-.bloc_metier > ul > li{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 30px;
+
+.bloc_metier > h2 {
+    display: flex;
+    margin-bottom: 0;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0B60B0;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding: 30px;
+    font-size: 40px;
 }
+
 
 .zone_text_metier{
     margin: 0;
@@ -29,9 +23,6 @@
     padding-left: 30px;
     padding-right: 15%;
     border: solid 1px #0B60B0;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
 }
 
 
@@ -39,7 +30,7 @@
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 60px;
+    font-size: 40px;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
@@ -47,19 +38,29 @@
 }
 
 
-.zone_text_metier > h3{
+.zone_text_metier  h3{
     color: #000;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
 }
 
-.zone_text_metier > p{
+.zone_text_metier  p{
     color: #000;
     font-family: Inter;
-    font-size: 36px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+.zone_text_metier  ul{
+    display: flex;
+    padding-left: 0px;
+}
+
+.zone_text_metier div{
+    padding-right: 200px;
 }
