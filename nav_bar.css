@@ -1,7 +1,3 @@
-h1{
-    padding-bottom: 100px;
-}
-
 
 header > nav{
     align-items: center;
@@ -21,7 +17,7 @@ header > nav{
     padding-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 4vh;
     font-family: 'Inter', sans-serif;
     color: white;
     text-decoration: none;
@@ -31,4 +27,11 @@ header > nav{
 .nav-bar > li > a{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 1300px){
+    .nav-bar{
+        flex-direction: column;
+    }
+    
 }

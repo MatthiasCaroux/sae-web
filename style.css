@@ -2,23 +2,32 @@ body{
     background-color: #ffffff;
 
 }
-h1{
-    padding-bottom: 50px;
+
+header > div{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
-main > h2 {
-    padding-left: 20%;
-    padding-right: 20%;
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
-header > a > img{
-    position:absolute;
-    width: 150px;
-    height: 150px;
-    flex-shrink: 0;
-    top: 40px;
-    left: 45px;
+
+
+header > div h1{
+    justify-content: center;
+    margin: auto;
 }
+
+header img{
+    width: 10em;
+}
+
+
+
 main > nav > ul > a > li> img{
     border-radius: 20px 20px 0px 0px;
     background: url(<path-to-image>), white 50% / cover no-repeat;
@@ -73,7 +82,7 @@ main > h1{
     
 }
 #questions{
-    font-size: 45px;
+    font-size: 6vh;
 }
 
 main > div {
@@ -99,6 +108,11 @@ main > div {
 }
 
 
+.bloc_principale{
+    display: inline-block;
+    margin: 20px;
+}
+
 .bloc_tous_les_metier :hover{
     background-color: white;
     color: #0B60B0;
@@ -114,11 +128,13 @@ footer > img{
 footer{
     background-color: whitesmoke;
     padding: 100px;
-    padding-left: 50px;
+    padding-left: 50px;;
 }
+
+
 footer > p{
     border: thin black solid;
-    width: 250px;
+    font-size: 1,5vh;
 }
 
 
@@ -132,4 +148,16 @@ footer > p{
     main > nav > ul > li {
         align-items: center;
     }
+    header > div{
+        display: block;
+    }
+
+    header div {
+        text-align: center;
+      }
+      
+    header div img {
+        display: block; /* Pour supprimer l'espace sous l'image */
+        margin: 0 auto; /* Pour centrer l'image horizontalement */
+      }
 }
