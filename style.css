@@ -128,7 +128,8 @@ footer > img{
 footer{
     background-color: whitesmoke;
     padding: 100px;
-    padding-left: 50px;;
+    padding-left: 50px;
+    margin-top: 50px;
 }
 
 
